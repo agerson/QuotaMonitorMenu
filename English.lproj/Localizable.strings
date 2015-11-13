@@ -1,0 +1,50 @@
+/* Standards */
+"Almost out of space" = "You are almost out of disk space to save files";
+
+/* Standards */
+"Be an admin to quit" = "You must be an administrator to quit this program.";
+
+/* Standards */
+"Can not quit" = "Can not quit";
+
+/* Standards */
+"Cancel" = "Cancel";
+
+/* Standards */
+"Disk Space Monitor" = "Disk Space Monitor";
+
+/* Standards */
+"Empty Trash" = "Empty trash";
+
+/* Standards */
+"Home Directory Disk Space Monitor" = "Home Directory Disk Space Monitor";
+
+/* Standards */
+"Ok" = "Ok";
+
+/* Standards */
+"Permanently delete" = "Are you sure you want to permanently remove the items in the trash?";
+
+/* Standards */
+"Remaining disk space" = "Disk space remaining: ";
+
+/* Standards */
+"Total disk space" = "Total disk space: ";
+
+/* Standards */
+"You cannot undo" = "You can not undo this operation.";
+
+/* Standards */
+"Warn Menu Text" = "WARNING - Your disk is almost full:";
+
+/* Standards */
+"whats Is This Text" = "You have a certain amount of space to store your files. Once you reach the maximum space allowed you will not be able to save any more files and your computer may begin to act unreliably. To prevent this from happening you must keep your disk use well below 100%. Please move old files to the trash and empty the trash regularly. You may want to back these files up to a cd, dvd, or USB drive before deleting them. If you feel you need more space please contact a computer administrator.";
+
+/* Standards */
+"alarm Text" = "Soon you will not be able to save any more files and your computer may begin to act unreliably. To fix this problem you must move some files to the trash and empty the trash. If you need more disk space please contact a computer administrator.";
+
+/* Standards */
+"Normal Menu Text" = "Used disk space:";
+
+/* Standards */
+"Invalid Pref" = "This is not a valid number";
