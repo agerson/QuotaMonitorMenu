@@ -41,7 +41,6 @@
 
 - (BOOL)arePrfsValid 
 { 
-	//LOG_ID(s);
 	if ([[checkDiskUseageEveryTextField stringValue] isEqualToString:@""]) {
 		[self showEmptyPrefAlertWithText:@"You must have a value for \"Check Disk Every\" "];
 		return NO;

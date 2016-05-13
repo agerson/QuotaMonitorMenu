@@ -88,7 +88,6 @@
 - (NSNumber *)percentOfDiskSpaceUsed
 {
 	double x = 100.0 - ([homeFolderFreeSize doubleValue] / [homeFolderSize doubleValue] * 100.0);
-	//NSLog( @"%f", x );
 	x = round(x);
 	return [NSNumber numberWithDouble:x];
 }

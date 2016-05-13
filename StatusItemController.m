@@ -422,20 +422,17 @@
 	NSString *pathToTrash = @"";
 	pathToTrash= [pathToTrash stringByAppendingFormat:@"%@/%@", NSHomeDirectory(),@".Trash"];
 	
-	//NSLog(@"%@",pathToTrash);
     NSMutableArray *paths = [NSMutableArray arrayWithObject:pathToTrash];
 
 	//Start receiving events
 	[events startWatchingPaths:paths];
 	
 	//Display a description of the stream
-	//NSLog(@"%@", [events streamDescription]);	
 }
 
 - (void)pathWatcher:(SCEvents *)pathWatcher eventOccurred:(SCEvent *)event
 {	
 	if ([self allowEmptyTrashUpdate]) {
-		//NSLog(@"%@", event);
 		[self setAllowEmptyTrashUpdate:NO];
 		allowEmptyTrashTimer = [NSTimer 
 						   scheduledTimerWithTimeInterval:5.0
